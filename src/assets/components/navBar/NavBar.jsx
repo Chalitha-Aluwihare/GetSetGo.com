@@ -4,7 +4,7 @@ import img01 from '../images/Back01.png'
 const NavBar = () => {
   return (
     <div>
-            <div className='p-1 text-center bg-white'>
+            <div className='p-1 text-center bg-white sm:text-[12px] md:text-[20px]'>
               <button className = 'p-4 text-[#6F6E6E] hover:text-black'>Home</button>
               <button className = 'p-4 text-[#6F6E6E] hover:text-black'>Stays</button>
               <button className = 'p-4 text-[#6F6E6E] hover:text-black'>Flights</button>
