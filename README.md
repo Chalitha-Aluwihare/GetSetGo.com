@@ -1,2 +1,8 @@
-# GetSetGo.com
-JetSetGo.com is a sustainable travel booking platform that offers eco-friendly accommodations, tips, and rewards, along with a carbon footprint calculator. It provides real-time updates on travel disruptions and features seamless booking and payment options, making it easy for travelers to plan their trips responsibly.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
