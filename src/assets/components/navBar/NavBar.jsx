@@ -1,21 +1,35 @@
-import React from 'react'
-import img01 from '../images/Back01.png'
+import React, { useState } from 'react';
+import Img01 from '../../images/navBar/img01.png';
 
 const NavBar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  
   return (
     <div>
-            <div className='p-1 text-center bg-white sm:text-[12px] md:text-[20px]'>
-              <button className = 'p-4 text-[#6F6E6E] hover:text-black'>Home</button>
-              <button className = 'p-4 text-[#6F6E6E] hover:text-black'>Stays</button>
-              <button className = 'p-4 text-[#6F6E6E] hover:text-black'>Flights</button>
-              <button className = 'p-4 text-[#6F6E6E] hover:text-black'>Hotels</button>
-              <button className = 'p-4 text-[#6F6E6E] hover:text-black'>Cars</button>
-              <button className = 'p-4 text-[#6F6E6E] hover:text-black'>My Account</button>
-              <button className = 'p-4 text-[#6F6E6E] hover:text-black'>Coustomer Support</button>
-              <button className = 'p-4 text-[#6F6E6E] hover:text-black'>About</button>
-            </div>
+      <nav>
+          <button onClick={()=> setIsMenuOpen(!isMenuOpen)}>
+          <div className='bg-white p-[30px] md:p-[0px] cursor-pointer'>
+          <img src={Img01} alt="Nav Image" className='flex z-20 w-[30px] h-auto md:hidden ml-5 absolute top-4 left-[10px] ' />
+          </div>
+          </button>
+        
+        {/* Navigation menu */}
+        <div>
+          <ul className={`absolute top-0 left-0 z-10 w-full py-4 pt-12 pl-4 bg-white opacity-0 md:opacity-100 md:z-auto md:p-4 md:pl-0 md:justify-center md:items-center md:flex md:static  ${isMenuOpen ? 'opacity-100' : 'opacity-0'} `}>
+            <li><a className='mx-4 md:my-0' href="#">Stays</a></li>
+            <li><a className='mx-4 md:my-0' href="#">Home</a></li>
+            <li><a className='mx-4 md:my-0' href="#">Flights</a></li>
+            <li><a className='mx-4 md:my-0' href="#">Hotels</a></li>
+            <li><a className='mx-4 md:my-0' href="#">Cars</a></li>
+            <li><a className='mx-4 md:my-0' href="#">My Account</a></li>
+            <li><a className='mx-4 md:my-0' href="#">Coustomer</a></li>
+            <li><a className='mx-4 md:my-0' href="#">About</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

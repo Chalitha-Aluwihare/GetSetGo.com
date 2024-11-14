@@ -8,7 +8,7 @@ import Deals from '../deals/Deals'
 const LandingPage = () => {
   return (
       <>
-    <div className='bg-[#F5F5F5]'>
+    <div className='bg-[#F5F5F5] '>
             <NavBar />
       <div>
             <img src={img01} alt="" />
