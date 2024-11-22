@@ -1,9 +1,9 @@
 import React from 'react'
-import img01 from '../images/Back01.png'
-import NavBar from '../navBar/NavBar'
-import Search from '../searchBar/Search'
-import Location from '../location/Location'
-import Deals from '../deals/Deals'
+import img01 from '../../assets/Header/Back01.png'
+import NavBar from '../NavBar/NavBar.jsx'
+import Search from '../SearchBar/SearchBar.jsx'
+import Location from '../VisitedPlace/VisitedPlaces.jsx'
+import Deals from '../SpecialDeals/SpecialDeals.jsx'
 
 const LandingPage = () => {
   return (

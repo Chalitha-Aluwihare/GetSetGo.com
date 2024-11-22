@@ -1,8 +1,8 @@
 import React from 'react'
-import img02 from './Pro01.png'
-import img03 from './Pro02.png'
-import img04 from './Pro03.png'
-import img05 from './Pro04.png'
+import img02 from '../../assets/VisitedPlace/pro01.png'
+import img03 from '../../assets/VisitedPlace/pro02.png'
+import img04 from '../../assets/VisitedPlace/pro03.png'
+import img05 from '../../assets/VisitedPlace/pro04.png'
 
 const Location = () => {
   return (

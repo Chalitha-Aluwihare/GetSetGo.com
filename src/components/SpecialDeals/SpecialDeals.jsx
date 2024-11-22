@@ -1,8 +1,8 @@
 import React from 'react'
-import Room01 from './Rooms 01.png'
-import Room02 from './Rooms 02.png'
-import Room03 from './Rooms 03.png'
-import Room04 from './Rooms 04.png'
+import Room01 from '../../assets/SpecialDeals/Rooms 01.png'
+import Room02 from '../../assets/SpecialDeals/Rooms 02.png'
+import Room03 from '../../assets/SpecialDeals/Rooms 03.png'
+import Room04 from '../../assets/SpecialDeals/Rooms 04.png'
 
 const Deals = () => {
   return (
